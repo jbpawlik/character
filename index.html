@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Superhero Are You?</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Which superhero are you?</h1>
+      <form id="superhero">
+        <h2>How old are you?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="minor" checked>
+            0-17 years old
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="adult">
+            18-65 years old
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="senior">
+            65-1000 years old
+          </label>
+        </div>
+      </form>
+      <button type="submit" class="button">Who am I?</button>
+      <div id="whichsuperhero">
+        <p>You are <span id="hero"> !</span></p>
+      </div>
+    </div>
+</body>
+</html>
